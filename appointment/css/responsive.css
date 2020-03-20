@@ -1,0 +1,413 @@
+@media (min-width: 992px){
+#sticky-wrap.stickyhead {
+	position: fixed;
+	top: 0;
+	right:0;
+	left:0;
+	/*background: #f7f7f7;*/
+	background: #2b2b2b;
+	/*box-shadow: 0 0 10px rgb(236, 223, 223);*/
+	z-index: 99;
+	border-bottom: 1px solid #8c8989;
+	transition-duration: 0.4s;
+	padding:9px 0;
+}
+	#sticky-wrap.stickyhead.nav_sec.navbar .navbar-nav li a
+	{
+		
+		transition-duration: 0.4s;
+	}
+	
+}
+
+
+@media only screen and (min-width:320px) and (max-width:991px) {
+	/*===== comman ===*/
+	
+	.md_res_mar_top_30
+	{
+		margin-top:30px;
+	}
+	.nav_sec
+	{
+		position: relative;
+		background: #232323 !important;
+		top: 0;
+		padding: 8px 0px;
+	}
+	.welcome_sec
+	{
+		padding: 50px 0 120px 0;
+	}
+	.thankyou_right
+	{
+		margin-top:30px;
+	}
+	.my-cart-small-items-container
+	{
+		width:100%;
+	}
+	.select-address-wrapper
+	{
+		padding-bottom:20px;
+	}
+	.my-cart-small-items-wrapper>div
+	{
+		padding: 6px 20px;
+	}
+	.inner_banner_txt_sec
+	{
+		padding: 30px 0
+	}
+	.my-cart-small-items-container
+	{
+		padding:3px 0;
+	}
+	.mobile-details-note
+	{
+		display:none;
+	}
+	.enter-details-wrapper
+	{
+		padding-bottom: 20px;
+	}
+	.zip_code_page {
+		padding: 50px 0;
+	}
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+/*====== Comman ====== */
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.mobile_top_header
+	{
+		display:block ;
+	}
+	.call_button_fixed,
+	.fixed_book_btn
+	{
+		display:none;
+	}
+	.sm_res_mar_top_30
+	{
+		margin-top:30px;
+	}
+	.nav_sec .stellarnav.dark
+	{
+		text-align: right;
+	}
+	.stellarnav.mobile.right > ul
+	{
+		text-align:left;
+	}
+	.nav_sec .stellarnav > ul > li > a:before
+	{
+		display: none;
+	}
+/*=== Top Header ====*/
+	.nav_sec
+	{
+		
+	}
+	
+	.nav_sec .navbar-brand
+	{
+		display: block;
+	}
+	.logo_box img {
+		max-width: 164px;
+	}
+	
+	/*===== Banner ====*/
+	
+	.banner_overlay
+	{
+		right: auto;
+		text-align: left;
+	}
+	.banner_txt_box h1
+	{
+		font-size: 20px;
+	}
+	#main_banner .carousel-indicators
+	{
+		bottom: -5px;
+	}
+	.welcome_txt_box h2
+	{
+		font-size: 29px;
+	}
+	.our_courses_home_sec {
+    	padding: 55px 0 20px 0;
+	}
+	.courses_box
+	{
+		margin-bottom: 50px;
+	}
+	.heading_box_comman h2
+	{
+		font-size: 27px;
+	}
+	.welcome_img_box 
+	{
+		margin-top: 20px;
+	}
+	.choose_destination_img {
+    	text-align: center;
+		margin-top: 20px;
+	}
+	.desti_education .edu_content h3
+	{
+		font-size: 20px;
+	}
+	.booking_details_inner h2
+	{
+		font-size: 21px;
+	}
+	.support_img2
+	{
+		margin-bottom: 20px;
+	}
+	.support_txt_box h2
+	
+	{
+		font-size: 24px;
+	}
+	.inner_page_banner_sec
+	{
+		min-height: 210px;
+	}
+	.map_box iframe
+	{
+		height: 290px;
+	}
+	.testimonial_box .testimonial_txt
+	{
+		padding:0;
+	}
+	.testimonial_box .testimonial_txt:before,
+	.testimonial_box .testimonial_txt:after
+	{
+		display:none;
+	}
+	.testimonial_head h2
+	{
+		font-size: 23px;
+	}
+	#call_modal .modal-body {
+		padding: 30px 16px;
+	}
+	.my-cart-wrapper, .my-cart-wrapper-not-fixed {
+		width: 100%;
+	}
+	.multi-selection-option
+	{
+		width:49%;
+	}
+	.select-time-day-selector-box
+	{
+		width:100%;
+		justify-content: center;
+	}
+	.select-time-day-selector-triangle_right
+	{
+		margin-right: 0% !important;
+		margin-top: -38px;
+	}
+	.select-time-time-picker-wrapper
+	{
+		width:100% !important;
+	}
+	.select-time-day-item {
+		width: 44px;
+		height: 44px;
+		min-width: 44px;
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+	}
+	.select-time-day-item-wrapper {
+		padding: 0 1px;
+	}
+	.select-time-weekday {
+		font-size: 12px;
+		letter-spacing: .3px;
+		line-height: 13px;
+		text-align: center;
+	}
+	.time-content-box {
+		width: 125px !important;
+	}
+	/*=== footer ===*/
+	.ft_box2 {
+    	padding-left: 0;
+	}
+	.footer_copy p
+	{
+		font-size:13px;
+	}
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+	
+	.logo_area
+	{
+		width: 60%;
+	}
+	.nav_area
+	{
+		width: 40%;
+	}
+	.logo_box {
+		padding: 4px 0 0 0;
+	}
+	.logo_box img {
+		max-width: 144px;
+	}
+	
+	.banner_txt_box h1
+	{
+		font-size: 20px;
+		margin: 0 0 3px 0;
+    	line-height: 1.2;
+	}
+	
+	.banner_txt_box .banner_btn1
+	{
+		padding: 4px 13px;
+    	margin: 0 0 0px 0;
+		font-size: 15px;
+	}
+	.banner_txt_box p
+	{
+		display: none;
+	}
+	#main_banner .carousel-indicators li
+	{
+		
+	}
+	.welcome_img_box iframe
+	{
+		height: 200px;
+	}
+	.multi-selection-option
+	{
+		width:100%;
+	}
+	
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+	.welcome_img_box iframe
+	{
+		height: 250px;
+	}
+	.banner_txt_box p
+	{
+		display: none;
+	}
+	.select-time-day-item {
+		width: 50px;
+		height: 50px;
+		min-width: 50px;
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+	}
+	.select-time-day-item-wrapper {
+		padding: 0 3px;
+	}
+	.select-time-weekday {
+		font-size: 12px;
+		letter-spacing: .3px;
+		line-height: 13px;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	/*========= top_header =========*/
+	.nav_sec .stellarnav ul
+	{
+		padding: 0 0 0 0;
+	}
+	.nav_sec .stellarnav > ul > li > a
+	{
+		padding: 15px 11px;
+	}
+	
+	.logo_box img {
+		max-width: 194px;
+	}
+	/*===== Banner ====*/
+	.banner_txt_box h1
+	{
+		font-size: 40px;
+	}
+	
+	.choose_destination_img {
+    	text-align: center;
+	}
+	.footer_box .ft_heading
+	{
+		font-size: 17px;
+	}
+	.ft_links ul li a
+	{
+		font-size: 14px;
+	}
+	.footer_box .ft_heading img
+	{
+		max-width: 100%;
+	}
+	.ft_box2 {
+		padding-left: 40px;
+	}
+	.inner_page_banner_sec
+	{
+		min-height: 290px;
+	}
+	.my-cart-wrapper, .my-cart-wrapper-not-fixed {
+		width: 100%;
+	}
+	.multi-selection-option
+	{
+		width:32%;
+	}
+
+	
+}
+
+/********************@media only screen and (min-width:1024px) and (max-width:1200px)********************/
+
+
+@media (min-width:992px) and (max-width:1199px) {
+	
+	.nav_sec.navbar .navbar-nav li a:before
+	{
+		top: 9px;
+    	height: 13px;
+	}
+	.logo_box img {
+		max-width: 200px;
+	}
+	.banner_txt_box h1
+	{
+		font-size: 45px;
+	}
+	.inner_page_banner_sec
+	{
+		min-height: 380px;
+	}
+	
+}
+
+	
+/********************@media only screen and (min-width:1201px)********************/
+
+	
+
+/********************@media only screen and (min-width:1201px)********************/

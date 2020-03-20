@@ -1,0 +1,50 @@
+<span id="cal-slide-tick" style="display: none"></span>
+<div id="cal-slide-content" class="cal-event-list">
+	<ul class="unstyled list-unstyled">
+		<% _.each(events, function(event) { %>
+			<li>
+				<span class="pull-left event <%= event['class'] %>"></span>&nbsp;
+				<a  href="details.php?rec=<%= event.id %>" data-event-class="<%= event['class'] %>" class="event-item">
+					<%= event.title %></a>
+			</li>
+		<% }) %>
+	</ul>
+</div>
+<div id="myModal2" class="modal fade" role="dialog" >
+<div class="thankyou_inner">
+			<div class="row ">
+				<div class="col-sm-12 thanks_head">
+					<h2>Congratulations dipankar mukherjee! Your
+	appointment is confirmed</h2>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="thankyou_left">
+						<h3>Appointment details</h3>
+						<ul class="list_order">
+							<li><span class="thank_icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+								Feb-24-2020, 3pm - 4pm</li>
+							<li><span class="thank_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+							rtyryryr</li>
+						</ul>
+						<br>
+						<h3>Order summary</h3>
+						<ul class="list_order2">						   
+							<li><p><b>TV Mounting</b></p></li>
+							<li><p>32" - 60"</p></li>
+							
+						 
+						<li><p><b>Other Iteams</b></p></li>
+												<li><p>Total Price -- <b> $162</b></p>
+							</li>
+						  </ul>
+						
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 thankyou_right_main">
+					<div class="thankyou_right">
+						<img src="images/success.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+</div>		
